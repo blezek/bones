@@ -1,6 +1,6 @@
 {
   "name": "bones",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Node module for sharable build systems.",
   "main": "index.js",
   "scripts": {
@@ -23,10 +23,24 @@
     "commander": "^2.5.0"
   },
   "dependencies": {
+    "browser-sync": "^1.6.3",
+    "browserify": "^6.2.0",
     "chalk": "^0.5.1",
     "gulp": "^3.8.9",
+    "gulp-util": "^3.0.1",
+    "require-dir": "^0.1.0",
     "tape": "^3.0.1",
     "testem": "^0.6.22",
-    "winston": "^0.8.3"
+    "watchify": "^2.1.1",
+    "winston": "^0.8.3",
+    "pretty-hrtime": "^0.2.1",
+    "gulp-browserify": "^0.5.0",
+    "gulp-jsdoc": "^0.1.4",
+    "gulp-jshint": "^1.8.4",
+    "gulp-notify": "^1.5.0",
+    "gulp-util": "^3.0.1",
+        "vinyl-source-stream": "^0.1.1",
+            "jshint": "^2.5.5",
+    "jshint-stylish": "^0.4.0"
   }
 }
