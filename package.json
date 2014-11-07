@@ -1,0 +1,32 @@
+{
+  "name": "bones",
+  "version": "0.0.0",
+  "description": "Node module for sharable build systems.",
+  "main": "index.js",
+  "scripts": {
+    "test": "testem"
+  },
+  "bin": {
+    "bones": "bones.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dblezek/bones.git"
+  },
+  "author": "Daniel Blezek <daniel.blezek@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dblezek/bones/issues"
+  },
+  "homepage": "https://github.com/dblezek/bones",
+  "devDependencies": {
+    "commander": "^2.5.0"
+  },
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "gulp": "^3.8.9",
+    "tape": "^3.0.1",
+    "testem": "^0.6.22",
+    "winston": "^0.8.3"
+  }
+}
